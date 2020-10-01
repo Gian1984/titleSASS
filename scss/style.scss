@@ -17,6 +17,13 @@ body {
 article {
     display: flex;
     flex-wrap: wrap;
+    #seeMore {
+        display: none;
+    }
+    #seeMore:target {
+        display: block;
+        color: red;
+    }
     section {
         flex-grow: 1;
         flex-basis: 45%;
